@@ -460,9 +460,7 @@ def drawDDPlot(contour_groups, legend_lines, this_tag = "default", plot_path = "
     leg_y = text_spot[1]-0.05*(addText.count('\n')-2)
     leg = ax.legend(fontsize=14,bbox_to_anchor=(1.02,leg_y),loc="upper left")
     leg.get_frame().set_linewidth(0.0)
-
-    plt.show()
-
+    
     plt.savefig(plot_path+'/{0}.pdf'.format(this_tag),bbox_inches='tight')
 
     plt.close(fig)    
