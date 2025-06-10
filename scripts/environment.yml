@@ -225,6 +225,7 @@ dependencies:
   - root=6.34.4=py313h7eb37b6_0
   - root_base=6.34.4=np2py313hd126fb6_0
   - rpds-py=0.22.3=py313h2aea54e_0
+  - scipy=1.15.3=py313hd7edaaf_0
   - scitokens-cpp=1.1.3=h9f99f3a_0
   - send2trash=1.8.2=py313hca03da5_1
   - setuptools=72.1.0=py313hca03da5_0
