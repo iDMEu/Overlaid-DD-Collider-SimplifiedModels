@@ -330,7 +330,7 @@ def coreDrawFunction(axes,contour_groups,legend_lines,addText = "",is_scaling=Fa
           axes.add_patch(patch)
 
     if dd_curves :
-      dd_colours = ['crimson','darkorange','gold','deeppink']
+      dd_colours = ['crimson','darkorange','gold','deeppink','red']
       for i,(newline,label) in enumerate(zip(dd_curves,dd_legendlines)) :
         plt.plot(newline[0],newline[1], color=dd_colours[i], label=label.replace(" ","\n"))      
 
